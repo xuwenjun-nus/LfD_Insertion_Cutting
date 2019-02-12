@@ -1,0 +1,4 @@
+ZB=expData(2,:);
+DALPHAX=expData(3,:);
+ZB=(ZB*4500)+4500;
+DALPHAX=DALPHAX*50;

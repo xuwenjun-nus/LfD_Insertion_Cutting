@@ -1,0 +1,49 @@
+﻿Build started 8/17/2015 8:57:54 PM.
+     1>Project "E:\NUS-research\transoral robot\demonstration_insertion\demo\demo\demo.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\demo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\4.8.5\include /I.\GeneratedFiles\Debug /IC:\Qt\4.8.5\include\QtCore /IC:\Qt\4.8.5\include\QtGui /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt HapticControl.cpp main.cpp
+         HapticControl.cpp
+         main.cpp
+     1>e:\nus-research\transoral robot\demonstration_insertion\demo\demo\ATC3DG.h(209): warning C4005: 'TRUE' : macro redefinition
+                 c:\qt\4.8.5\include\qtcore\../../src/corelib/global/qglobal.h(1016) : see previous definition of 'TRUE'
+     1>e:\nus-research\transoral robot\demonstration_insertion\demo\demo\ATC3DG.h(210): warning C4005: 'FALSE' : macro redefinition
+                 c:\qt\4.8.5\include\qtcore\../../src/corelib/global/qglobal.h(1017) : see previous definition of 'FALSE'
+         Generating Code...
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\NUS-research\transoral robot\demonstration_insertion\demo\Win32\Debug\\demo.exe" /NOLOGO /LIBPATH:C:\Qt\4.8.5\lib qtmaind.lib QtCored4.lib QtGuid4.lib ATC3DG.lib dhdms.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\demo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\NUS-research\transoral robot\demonstration_insertion\demo\Win32\Debug\demo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\NUS-research\transoral robot\demonstration_insertion\demo\Win32\Debug\demo.lib" /MACHINE:X86 Debug\demo.obj
+         Debug\EMTread.obj
+         Debug\moc_demo.obj
+         Debug\moc_EMTread.obj
+         Debug\moc_HapticControl.obj
+         Debug\moc_MotorControl.obj
+         Debug\moc_qextserialbase.obj
+         Debug\moc_qextserialport.obj
+         Debug\moc_StoreThread.obj
+         Debug\moc_win_qextserialport.obj
+         Debug\qrc_demo.obj
+         Debug\HapticControl.obj
+         Debug\HighResolutionTimer.obj
+         Debug\main.obj
+         Debug\MotorControl.obj
+         Debug\qextserialbase.obj
+         Debug\qextserialport.obj
+         Debug\Sample.obj
+         Debug\StoreThread.obj
+         Debug\win_qextserialport.obj
+         LINK : E:\NUS-research\transoral robot\demonstration_insertion\demo\Win32\Debug\\demo.exe not found or not built by the last incremental link; performing full link
+         demo.vcxproj -> E:\NUS-research\transoral robot\demonstration_insertion\demo\Win32\Debug\demo.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\NUS-research\transoral robot\demonstration_insertion\demo\Win32\Debug\\demo.exe;#1" /manifest Debug\demo.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\demo.unsuccessfulbuild".
+         Touching "Debug\demo.lastbuildstate".
+     1>Done Building Project "E:\NUS-research\transoral robot\demonstration_insertion\demo\demo\demo.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.18
